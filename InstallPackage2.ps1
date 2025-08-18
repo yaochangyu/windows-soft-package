@@ -54,10 +54,10 @@ function Get-Winget-PackageNames
     "TortoiseGit.TortoiseGit",
     "Microsoft.PowerToys",
     #"Microsoft.Edge",
-    "JGraph.Draw",
 	#"Docker.DockerCompose",
 	#"Docker.DockerCLI"
     #"TechSmith.Snagit.2021"
+    "JGraph.Draw"
     ;
     return $items;
 }
