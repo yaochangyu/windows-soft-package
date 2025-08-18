@@ -23,8 +23,7 @@ Say
 - Get-Scoop-PackageNames # 列出套件
 - Install-Scoop-Packages # 安裝套件
 - Update-Scoop-Packages # 更新套件
-
-## 需要管理員權限
 - Get-Winget-PackageNames # 列出套件
+## 需要管理員權限
 - Install-Winget-Packages # 安裝套件
 - Update-Winget-Packages # 更新套件
