@@ -15,7 +15,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 Say
 ```
 
-上述語法貼到 Powershell
+上述語法貼到 Powershell，載入後就可以依照下列方法安裝
 
 ## 函數清單 
 - Install-Scoop # 安裝 scoop
@@ -27,3 +27,19 @@ Say
 ## 需要管理員權限
 - Install-Winget-Packages # 安裝套件
 - Update-Winget-Packages # 更新套件
+
+# 安裝 Scoop 以及相關軟體
+```
+Get-Scoop-PackageNames # 列出套件
+```
+
+安裝 bucket 和軟體
+```
+Install-Scoop 
+Install-Scoop-Buckets 
+Install-Scoop-Packages
+```
+# 用 Winget 安裝軟體
+```
+~~~~
+```
