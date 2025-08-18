@@ -36,6 +36,8 @@ function Get-Winget-PackageNames
     "Microsoft.DotNet.SDK.5",
     "Microsoft.DotNet.SDK.3_1",
     "Microsoft.DotNet.Framework.DeveloperPack_4",
+    "Microsoft.DotNet.Framework.DeveloperPack.4.5.2",
+    "Microsoft.DotNet.Framework.DeveloperPack.4.6.2",
     #"Microsoft.VisualStudioCode",
     #"RicoSuter.NSwagStudio",
     #"Amazon.SAM-CLI",
