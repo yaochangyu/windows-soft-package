@@ -36,12 +36,10 @@ function Get-Winget-PackageNames
     "Microsoft.DotNet.SDK.5",
     "Microsoft.DotNet.SDK.3_1",
     "Microsoft.DotNet.Framework.DeveloperPack_4",
-    "Microsoft.DotNet.Framework.DeveloperPack.4.5",
-    "Microsoft.DotNet.Framework.DeveloperPack.4.6",
     #"Microsoft.VisualStudioCode",
     #"RicoSuter.NSwagStudio",
-    #"Amazon.SAM-CLI",
-    #"Google.CloudSDK",
+    "Amazon.SAM-CLI",
+    "Google.CloudSDK",
     #"LINQPad.LINQPad.8",
     #"LINQPad.LINQPad.7",
     #"LINQPad.LINQPad.6",
@@ -54,10 +52,10 @@ function Get-Winget-PackageNames
     "TortoiseGit.TortoiseGit",
     "Microsoft.PowerToys",
     #"Microsoft.Edge",
-	#"Docker.DockerCompose",
-	#"Docker.DockerCLI"
+    "JGraph.Draw",
+	"Docker.DockerCompose",
+	"Docker.DockerCLI"
     #"TechSmith.Snagit.2021"
-    "JGraph.Draw"
     ;
     return $items;
 }
@@ -147,9 +145,7 @@ function Get-Scoop-PackageNames
 	"uuidgen",
 	"linqpad",
 	"warp-terminal",
-	"k6",
-	"docker",
-	"docker-compose"
+	"k6"
     ;
     return $items;
 }
