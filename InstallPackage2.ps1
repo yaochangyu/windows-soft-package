@@ -145,7 +145,8 @@ function Get-Scoop-PackageNames
 	"uuidgen",
 	"linqpad",
 	"warp-terminal",
-	"k6"
+	"k6",
+	"picpick"
     ;
     return $items;
 }
