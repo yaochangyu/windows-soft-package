@@ -146,7 +146,8 @@ function Get-Scoop-PackageNames
 	"linqpad",
 	"warp-terminal",
 	"k6",
-	"picpick"
+	"picpick",
+	"sharex"
     ;
     return $items;
 }
