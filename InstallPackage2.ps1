@@ -27,6 +27,7 @@ function Get-Choco-PackageNames
 function Get-Winget-PackageNames
 {
     $items =
+	"JanDeDobbeleer.OhMyPosh",
     #"Git.Git",
     #"Docker.DockerDesktop",
 	"Microsoft.DotNet.SDK.10",
