@@ -151,7 +151,8 @@ function Get-Scoop-PackageNames
 	"picpick",
 	"sharex",
 	"obsidian",
-	"postman"
+	"postman",
+	"kubectl"
     ;
     return $items;
 }
