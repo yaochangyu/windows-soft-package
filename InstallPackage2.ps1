@@ -147,7 +147,8 @@ function Get-Scoop-PackageNames
 	"warp-terminal",
 	"k6",
 	"picpick",
-	"sharex"
+	"sharex",
+	"obsidian"
     ;
     return $items;
 }
