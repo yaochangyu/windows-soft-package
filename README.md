@@ -41,5 +41,5 @@ Install-Scoop-Packages
 ```
 # 用 Winget 安裝軟體
 ```
-~~~~
+Install-Winget-Packages
 ```
