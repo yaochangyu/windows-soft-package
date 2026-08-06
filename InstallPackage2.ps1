@@ -29,6 +29,7 @@ function Get-Winget-PackageNames
     $items =
     #"Git.Git",
     #"Docker.DockerDesktop",
+	"Microsoft.DotNet.SDK.10",
 	"Microsoft.DotNet.SDK.9",
 	"Microsoft.DotNet.SDK.8",
     "Microsoft.DotNet.SDK.7",
