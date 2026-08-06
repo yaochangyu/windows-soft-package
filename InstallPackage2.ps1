@@ -152,7 +152,8 @@ function Get-Scoop-PackageNames
 	"sharex",
 	"obsidian",
 	"postman",
-	"kubectl"
+	"kubectl",
+	"lens"
     ;
     return $items;
 }
