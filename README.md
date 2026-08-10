@@ -19,6 +19,7 @@ Say
 
 ## 函數清單 
 - Install-Scoop # 安裝 scoop
+- scoop install git
 - Install-Scoop-Buckets # 安裝 scoop 的 bucket
 - Get-Scoop-PackageNames # 列出套件
 - Install-Scoop-Packages # 安裝套件
