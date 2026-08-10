@@ -19,7 +19,6 @@ Say
 
 ## 函數清單 
 - Install-Scoop # 安裝 scoop
-- scoop install git
 - Install-Scoop-Buckets # 安裝 scoop 的 bucket
 - Get-Scoop-PackageNames # 列出套件
 - Install-Scoop-Packages # 安裝套件
@@ -30,13 +29,15 @@ Say
 - Update-Winget-Packages # 更新套件
 
 # 安裝 Scoop 以及相關軟體
+
 ```
 Get-Scoop-PackageNames # 列出套件
 ```
 
 安裝 bucket 和軟體
 ```
-Install-Scoop 
+Install-Scoop
+scoop install git
 Install-Scoop-Buckets 
 Install-Scoop-Packages
 ```
